@@ -112,7 +112,7 @@ bigButton.addEventListener("click", () =>{
     }
     else{
         console.log(display.dataset.content);
-        display.dataset.content = (parseInt(display.dataset.content.split(":")[0]) + ':' + ((parseInt(display.dataset.content.split(":")[1]) + 30)));
+        display.dataset.content = (parseInt(display.dataset.content.split(":")[0]) + ':' + ((parseInt(display.dataset.content.split(":")[1]))));
     }
 
     console.log("clicked start");
